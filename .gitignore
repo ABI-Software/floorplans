@@ -1,0 +1,32 @@
+# Emacs temporary files
+\#*\#
+.#*
+*~
+
+# Server ignores
+__pycache__
+# secrets.py includes passwords and other production configuration and so should be specific to each set up.
+floorplan-server-django/floorplanapp/floorplanapp/secrets.py
+
+# Frontend ignores
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/frontend/node_modules
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

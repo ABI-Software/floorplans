@@ -1,0 +1,18 @@
+#people text {
+    fill:black;
+    font-family:sans-serif;
+    font-size:12.5px;
+    font-weight: bold;
+}
+
+#people a:hover,#people a:active {
+    text-decoration:underline;
+}
+
+#people a:hover text, #people a:active text {
+    fill: blue;
+}
+
+#people .no-profile {
+	visibility:hidden;
+}

@@ -1,0 +1,15 @@
+.people-annotations text {
+    cursor:pointer;
+    user-select:none;
+}
+.test-input {
+    user-select: none;
+}
+
+.people-annotations text.edit:hover,.people-annotations text.edit:active {
+    filter: url(#solidbg);
+}
+
+.annotation-editor {
+    width:300px;
+}

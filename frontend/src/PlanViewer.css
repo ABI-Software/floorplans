@@ -1,0 +1,18 @@
+.people-annotations text {
+    fill:black;
+    font-family:sans-serif;
+    font-size:12.5px;
+    font-weight: bold;
+}
+
+.people-annotations a:hover,.people-annotations a:active {
+    text-decoration:underline;
+}
+
+.people-annotations a:hover text, .people-annotations a:active text {
+    fill: blue;
+}
+
+.people-annotations .no-profile {
+	visibility:hidden;
+}
