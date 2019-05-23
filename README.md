@@ -1,4 +1,7 @@
 # Floor plan viewer and editor
+
+**This repository has now been archived as it is no longer under active development.**
+
 WIP
 This is an unfinished floor plan viewer and editor for ABI. Users can look through floors of the ABI building and find where people are sitting. Administrators can edit the floor plans to add, edit and remove people from the floor plans, and potentially use it for space planning.
 
